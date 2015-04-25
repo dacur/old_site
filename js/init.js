@@ -8,8 +8,8 @@
 
 window.onload = function() {
   var elevator = new Elevator({
-    mainAudio: './music/audio.mp3',
-    endAudio: './music/end-audio.mp3'
+    mainAudio: 'music/elevator-music.mp3',
+    endAudio: 'music/ding.mp3'
   });
 }
 
